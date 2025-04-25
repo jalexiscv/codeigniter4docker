@@ -1,0 +1,29 @@
+# CodeIgniter 4 specific
+src/writable/cache/*
+src/writable/logs/*
+src/writable/session/*
+src/writable/uploads/*
+src/writable/debugbar/*
+
+# Environment files
+src/.env
+.env
+.env.backup
+
+# Composer
+src/vendor/
+composer.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Docker specific
+.docker/
+dbdata/
+
+# System specific
+.DS_Store
+Thumbs.db
