@@ -38,6 +38,13 @@ RUN chown -R www-data:www-data /var/www/html \
 # Update Apache configuration
 RUN sed -i 's!/var/www/html!/var/www/html/public!g' /etc/apache2/sites-available/000-default.conf
 
+# Configure Apache to listen on port 8080
+RUN sed -i 's/Listen 80/Listen ${PORT:-80}/' /etc/apache2/ports.conf && \
+    sed -i 's/<VirtualHost \*:80>/<VirtualHost *:${PORT:-80}>/' /etc/apache2/sites-available/000-default.conf
+
 # Copy env file and set production environment
 COPY env .env
 RUN sed -i 's/CI_ENVIRONMENT = development/CI_ENVIRONMENT = production/' .env
+
+# Expose the port
+EXPOSE ${PORT:-80}
