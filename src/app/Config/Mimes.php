@@ -62,11 +62,11 @@ class Mimes
             'application/x-msdownload',
         ],
         'class' => 'application/octet-stream',
-        'psd'   => [
+        'psd' => [
             'application/x-photoshop',
             'image/vnd.adobe.photoshop',
         ],
-        'so'  => 'application/octet-stream',
+        'so' => 'application/octet-stream',
         'sea' => 'application/octet-stream',
         'dll' => 'application/octet-stream',
         'oda' => 'application/oda',
@@ -79,12 +79,12 @@ class Mimes
             'application/pdf',
             'application/postscript',
         ],
-        'eps'  => 'application/postscript',
-        'ps'   => 'application/postscript',
-        'smi'  => 'application/smil',
+        'eps' => 'application/postscript',
+        'ps' => 'application/postscript',
+        'smi' => 'application/smil',
         'smil' => 'application/smil',
-        'mif'  => 'application/vnd.mif',
-        'xls'  => [
+        'mif' => 'application/vnd.mif',
+        'xls' => [
             'application/vnd.ms-excel',
             'application/msexcel',
             'application/x-msexcel',
@@ -108,15 +108,15 @@ class Mimes
             'application/vnd.openxmlformats-officedocument.presentationml.presentation',
         ],
         'wbxml' => 'application/wbxml',
-        'wmlc'  => 'application/wmlc',
-        'dcr'   => 'application/x-director',
-        'dir'   => 'application/x-director',
-        'dxr'   => 'application/x-director',
-        'dvi'   => 'application/x-dvi',
-        'gtar'  => 'application/x-gtar',
-        'gz'    => 'application/x-gzip',
-        'gzip'  => 'application/x-gzip',
-        'php'   => [
+        'wmlc' => 'application/wmlc',
+        'dcr' => 'application/x-director',
+        'dir' => 'application/x-director',
+        'dxr' => 'application/x-director',
+        'dvi' => 'application/x-dvi',
+        'gtar' => 'application/x-gtar',
+        'gz' => 'application/x-gzip',
+        'gzip' => 'application/x-gzip',
+        'php' => [
             'application/x-php',
             'application/x-httpd-php',
             'application/php',
@@ -124,11 +124,11 @@ class Mimes
             'text/x-php',
             'application/x-httpd-php-source',
         ],
-        'php4'  => 'application/x-httpd-php',
-        'php3'  => 'application/x-httpd-php',
+        'php4' => 'application/x-httpd-php',
+        'php3' => 'application/x-httpd-php',
         'phtml' => 'application/x-httpd-php',
-        'phps'  => 'application/x-httpd-php-source',
-        'js'    => [
+        'phps' => 'application/x-httpd-php-source',
+        'js' => [
             'application/x-javascript',
             'text/plain',
         ],
@@ -139,10 +139,10 @@ class Mimes
             'application/x-tar',
             'application/x-gzip-compressed',
         ],
-        'z'     => 'application/x-compress',
+        'z' => 'application/x-compress',
         'xhtml' => 'application/xhtml+xml',
-        'xht'   => 'application/xhtml+xml',
-        'zip'   => [
+        'xht' => 'application/xhtml+xml',
+        'zip' => [
             'application/x-zip',
             'application/zip',
             'application/x-zip-compressed',
@@ -155,11 +155,11 @@ class Mimes
             'application/rar',
             'application/x-rar-compressed',
         ],
-        'mid'  => 'audio/midi',
+        'mid' => 'audio/midi',
         'midi' => 'audio/midi',
         'mpga' => 'audio/mpeg',
-        'mp2'  => 'audio/mpeg',
-        'mp3'  => [
+        'mp2' => 'audio/mpeg',
+        'mp3' => [
             'audio/mpeg',
             'audio/mpg',
             'audio/mpeg3',
@@ -174,12 +174,12 @@ class Mimes
             'audio/aiff',
         ],
         'aifc' => 'audio/x-aiff',
-        'ram'  => 'audio/x-pn-realaudio',
-        'rm'   => 'audio/x-pn-realaudio',
-        'rpm'  => 'audio/x-pn-realaudio-plugin',
-        'ra'   => 'audio/x-realaudio',
-        'rv'   => 'video/vnd.rn-realvideo',
-        'wav'  => [
+        'ram' => 'audio/x-pn-realaudio',
+        'rm' => 'audio/x-pn-realaudio',
+        'rpm' => 'audio/x-pn-realaudio-plugin',
+        'ra' => 'audio/x-realaudio',
+        'rv' => 'video/vnd.rn-realvideo',
+        'wav' => [
             'audio/x-wav',
             'audio/wave',
             'audio/wav',
@@ -263,9 +263,9 @@ class Mimes
             'image/x-png',
         ],
         'webp' => 'image/webp',
-        'tif'  => 'image/tiff',
+        'tif' => 'image/tiff',
         'tiff' => 'image/tiff',
-        'css'  => [
+        'css' => [
             'text/css',
             'text/plain',
         ],
@@ -281,9 +281,9 @@ class Mimes
             'text/html',
             'text/plain',
         ],
-        'txt'  => 'text/plain',
+        'txt' => 'text/plain',
         'text' => 'text/plain',
-        'log'  => [
+        'log' => [
             'text/plain',
             'text/x-log',
         ],
@@ -300,18 +300,18 @@ class Mimes
             'text/xml',
         ],
         'mpeg' => 'video/mpeg',
-        'mpg'  => 'video/mpeg',
-        'mpe'  => 'video/mpeg',
-        'qt'   => 'video/quicktime',
-        'mov'  => 'video/quicktime',
-        'avi'  => [
+        'mpg' => 'video/mpeg',
+        'mpe' => 'video/mpeg',
+        'qt' => 'video/quicktime',
+        'mov' => 'video/quicktime',
+        'avi' => [
             'video/x-msvideo',
             'video/msvideo',
             'video/avi',
             'application/x-troff-msvideo',
         ],
         'movie' => 'video/x-sgi-movie',
-        'doc'   => [
+        'doc' => [
             'application/msword',
             'application/vnd.ms-office',
         ],
@@ -343,8 +343,8 @@ class Mimes
             'application/msword',
             'application/octet-stream',
         ],
-        'xl'   => 'application/excel',
-        'eml'  => 'message/rfc822',
+        'xl' => 'application/excel',
+        'eml' => 'message/rfc822',
         'json' => [
             'application/json',
             'text/json',
@@ -401,21 +401,21 @@ class Mimes
             'video/mp4',
             'video/x-f4v',
         ],
-        'flv'  => 'video/x-flv',
+        'flv' => 'video/x-flv',
         'webm' => 'video/webm',
-        'aac'  => 'audio/x-acc',
-        'm4u'  => 'application/vnd.mpegurl',
-        'm3u'  => 'text/plain',
+        'aac' => 'audio/x-acc',
+        'm4u' => 'application/vnd.mpegurl',
+        'm3u' => 'text/plain',
         'xspf' => 'application/xspf+xml',
-        'vlc'  => 'application/videolan',
-        'wmv'  => [
+        'vlc' => 'application/videolan',
+        'wmv' => [
             'video/x-ms-wmv',
             'video/x-ms-asf',
         ],
-        'au'   => 'audio/x-au',
-        'ac3'  => 'audio/ac3',
+        'au' => 'audio/x-au',
+        'ac3' => 'audio/ac3',
         'flac' => 'audio/x-flac',
-        'ogg'  => [
+        'ogg' => [
             'audio/ogg',
             'video/ogg',
             'application/ogg',
@@ -430,9 +430,9 @@ class Mimes
             'application/xml',
             'text/xml',
         ],
-        'ics'  => 'text/calendar',
+        'ics' => 'text/calendar',
         'ical' => 'text/calendar',
-        'zsh'  => 'text/x-scriptzsh',
+        'zsh' => 'text/x-scriptzsh',
         '7zip' => [
             'application/x-compressed',
             'application/x-zip-compressed',
@@ -494,7 +494,7 @@ class Mimes
     {
         $extension = trim(strtolower($extension), '. ');
 
-        if (! array_key_exists($extension, static::$mimes)) {
+        if (!array_key_exists($extension, static::$mimes)) {
             return null;
         }
 
@@ -517,7 +517,7 @@ class Mimes
         if (
             $proposedExtension !== ''
             && array_key_exists($proposedExtension, static::$mimes)
-            && in_array($type, (array) static::$mimes[$proposedExtension], true)
+            && in_array($type, (array)static::$mimes[$proposedExtension], true)
         ) {
             // The detected mime type matches with the proposed extension.
             return $proposedExtension;
@@ -526,7 +526,7 @@ class Mimes
         // Reverse check the mime type list if no extension was proposed.
         // This search is order sensitive!
         foreach (static::$mimes as $ext => $types) {
-            if (in_array($type, (array) $types, true)) {
+            if (in_array($type, (array)$types, true)) {
                 return $ext;
             }
         }

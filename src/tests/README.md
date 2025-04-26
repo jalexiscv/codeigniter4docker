@@ -29,7 +29,8 @@ If running under macOS or Linux, you can create a symbolic link to make running 
 ```
 
 You also need to install [XDebug](https://xdebug.org/docs/install) in order
-for code coverage to be calculated successfully. After installing `XDebug`, you must add `xdebug.mode=coverage` in the **php.ini** file to enable code coverage.
+for code coverage to be calculated successfully. After installing `XDebug`, you must add `xdebug.mode=coverage` in the *
+*php.ini** file to enable code coverage.
 
 ## Setting Up
 
@@ -93,6 +94,7 @@ HTML code coverage reports.
 
 Every test needs a *test case*, or class that your tests extend. CodeIgniter 4
 provides one class that you may use directly:
+
 * `CodeIgniter\Test\CIUnitTestCase`
 
 Most of the time you will want to write your own test cases that extend `CIUnitTestCase`
