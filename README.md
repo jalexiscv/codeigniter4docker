@@ -1,4 +1,4 @@
-# CodeIgniter 4 Docker Setup
+# CodeIgniter 4.6 Docker Setup
 
 Este es un entorno Docker para CodeIgniter 4.6 que incluye:
 - PHP 8.1 con Apache
